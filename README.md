@@ -10,7 +10,7 @@ A simple Expenses Tracking application, which can track your day to day transact
 - **Show Total Balance** Show total number balance available.
 
 ## Demo
-Click [here]([https://himanshuchopra99.github.io/Expense-Tracker/]) to get the demo of this Expense Tracker App
+Click [here](https://himanshuchopra99.github.io/Expense-Tracker/) to get the demo of this Expense Tracker App
 
 ## Usage
 
