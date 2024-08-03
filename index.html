@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="container">
+        <h1>EXPENSE TRACKER</h1>
+        <div class="main-container">
+            <div class="head">
+                <div class="total-balance">
+                    <span>TOTAL BALANCE</span>
+                    <span id="total-money">0.00</span>
+                </div>
+                <div class="transaction-info">
+                    <div class="income">
+                        <span id="incomeName">Income</span>
+                        <span class="incomeAmount">+0.00</span>
+                    </div>
+                    <div class="expense">
+                        <span id="expenseName">Expense</span>
+                        <span class="expenseAmount">-0.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <h3>Transaction</h3>
+                <div class="transaction-list">
+                </div>
+            </div>
+            <div class="footer">
+                <div class="arrow">
+                    <i class="fa-duotone fa-solid fa-arrow-right fa-rotate-90" style="--fa-secondary-opacity: 0;" ></i>
+                </div>
+                <div class="selector">
+                    <button class="incomeBtn">Income</button>
+                    <button class="expenseBtn">Expense</button>
+                </div>
+                <div class="name">
+                    <span>Name</span>
+                    <input id="transactionName" type="text" placeholder="Write note...">
+                </div>
+                <div class="amount-wrapper">
+                    <div class="amount">
+                        <span>Amount</span>
+                        <input id="transactionAmount" type="number" placeholder="0">
+                    </div>
+                    <div class="footer-date">
+                        <span>Date</span>
+                        <input id="transactionDate" type="date">
+                    </div>
+                </div>
+                <div class="addBtn">
+                    <button>Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
